@@ -4,7 +4,7 @@ function ctrl_c(){
   exit 1
 }
 
-#Ctrl+C
+#Ctrl+C trap
 trap ctrl_c INT
 
 for port in $(seq 1 65535); do 
