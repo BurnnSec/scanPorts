@@ -20,6 +20,7 @@ trap ctrl_c INT
 
 #Escaneo
 for port in $(seq 1 65535); do 
+  echo -e "${greenColour}Scaning, please wait...${endColour}"
   tput civis
   (echo '' > /dev/tcp/127.0.0.1/$port) 2>/dev/null && echo -e "${redColour}Port $port${endColour} ${grayColour}-> OPEN${endColour}" 
   done 
