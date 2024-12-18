@@ -1,15 +1,15 @@
 # scanPorts
-Pequeño script creado en Bash.
+Script created in bash for port scanning
 
-# Funcionamiento
+# 
+The script, when executed, sends requests with empty strings to /dev/tcp/127.0.0.1/**port**. By playing with stderr and stdout, we find out which port is open on the local computer.
 
-El script, al ejecutarse, envía peticiones con cadenas vacías a /dev/tcp/127.0.0.1/puerto. Jugando con stderr y stdout, averiguamos qué puerto está abierto en el equipo local.
-
-**Instrucciones:**
+**To install:**
 <br />
-- Ejecutar: `git clone https://github.com/BurnnSec/scanPorts`
+- Write in line command: `git clone https://github.com/BurnnSec/scanPorts`
 
-- Dar permisos de ejecución: `chmod +x scanPorts.sh`
+- Give execute permissions: `chmod +x scanPorts.sh`
 
-- Ejecutar: `./scanPorts.sh`
+- Execute: `./scanPorts.sh`
+
 
