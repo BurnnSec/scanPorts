@@ -22,5 +22,5 @@ trap ctrl_c INT
 for port in $(seq 1 65535); do 
   tput civis
   (echo '' > /dev/tcp/127.0.0.1/$port) 2>/dev/null && echo -e "${redColour}$port${endColour} ${grayColour}--OPEN${endColour}" 
-  tput cnorm
-done 
+  done 
+tput cnorm
