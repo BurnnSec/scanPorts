@@ -15,4 +15,4 @@ The script, when executed, sends requests with empty strings to /dev/tcp/127.0.0
 The tool will display the open ports on the local computer.
 
 <p align="center">
-<img src="https://i.imgur.com/5TLCpVS.jpeg" style="height: 35%; width:35%;"/></center> </a></p>
+<img src="https://i.imgur.com/5TLCpVS.jpeg" style="height: 50%; width:50%;"/></center> </a></p>
